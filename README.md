@@ -12,7 +12,7 @@ E.g. call
 | 200 | The number is on the black list, be careful before accepting a user with these credentials | [4915903921132](https://fakenumbers.github.io/mobile/4915903921132) |
 | 404 | Number not (yet) blacklisted | [123456789](https://fakenumbers.github.io/mobile/123456789) |
 
-Doing "bulk" checks against your database using HTTP request is of course **not recommended**. Rather clone the repo at https://github.com/fakenumbers/fakenumbers.github.io/ and do an offline search (+ contribute your tool later on)
+Doing "bulk" checks against your database using HTTP request is of course **not recommended**. Rather clone the repo at [github.com/fakenumbers/](https://github.com/fakenumbers/fakenumbers.github.io/) and do an offline search (+ contribute your tool later on)
 
 To add new numbers, you can use the CLI script `./scripts/bulkadd.sh`, e.g.
 
@@ -37,4 +37,10 @@ Commit as "Add SMS numbers of freesmsverification.com"
 
 (`<list.file>` You can also prepare a text file with one number per line)
   
-If this is to complicate for you, feel free to contribute by sending an emial with the numbers and the source to fake.number.checker@gmail.com Don't worry - your mail address won't be published.
+If this is to complicate for you, feel free to contribute by sending an emial with the numbers and the source to [fake.number.checker@gmail.com](mailto:fake.number.checker@gmail.com) Don't worry - your mail address won't be published.
+
+## ways to contribute
+* Discover more services, that offer fake numbers, one-time emails, IBANs, etc. and [let us know](mailto:fake.number.checker@gmail.com)
+* Add more numbers, as described above
+* Create a bot / scraper, that crawls for changes at one of the know [Online SMS services](https://github.com/fakenumbers/fakenumbers.github.io/tree/master/sms-services) and automatically creates a pull request here on any update
+* Create a crawler (e.g. by doing a simple [Google search for "IBAN GmbH"](https://www.google.com/search?q=iban%20gmbh)) that collects all these published IBAN, used for SEPA direct debit elsewhere in the web
