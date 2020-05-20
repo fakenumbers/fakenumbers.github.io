@@ -18,7 +18,7 @@ To add new numbers, you can use the CLI script `./scripts/bulkadd.sh`, e.g.
 
 ```
 $ ./scripts/bulkadd.sh mobile "Add SMS numbers of freesmsverification.com"
-Enter numbers line by line, press ENTER if you are done
+Enter numbers line by line or paste a list, press ENTER if you are done
 4915735983161
 19704009215
 17578283856
