@@ -1,4 +1,4 @@
-# [fakenumbercheck.tk](https://fakenumbercheck.tk/)
+# [fakenumbers.github.io](https://fakenumbers.github.io/)
 A list of publicly known fake credentials (e.g. mobile phone numbers)
 
 You can simply use it as an API enpoint by doing a HTTP HEAD (or any other verb) request and evaluate the HTTP status
