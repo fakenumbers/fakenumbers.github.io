@@ -12,7 +12,7 @@ E.g. call
 | 200 | The number is on the black list, be careful before accepting a user with these credentials | [4915903921132](https://fakenumbercheck.tk/mobile/4915903921132) |
 | 404 | Number not (yet) blacklisted | [123456789](https://fakenumbercheck.tk/mobile/123456789) |
 
-Doing "bulk" checks against your database using HTTP request is of course **not recommended**. Rather clone the repo at [github.com/fakenumbers/](https://github.com/fakenumbers/fakenumbers.github.io/) and do an offline search (+ contribute your tool later on)
+Doing "bulk" checks against using HTTP request is of course **not recommended**. Rather clone the repo at [github.com/fakenumbers/](https://github.com/fakenumbers/fakenumbers.github.io/) and do an offline search using the CLI [bulkcheck.sh](https://github.com/fakenumbers/fakenumbers.github.io/blob/master/scripts/bulkcheck.sh) script.
 
 To add new numbers, you can use the CLI script `./scripts/bulkadd.sh`, e.g.
 
