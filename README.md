@@ -1,16 +1,16 @@
-# [fakenumbers.github.io](https://fakenumbers.github.io/)
+# [fakenumbercheck.tk](https://fakenumbercheck.tk/)
 A list of publicly known fake credentials (e.g. mobile phone numbers)
 
 You can simply use it as an API enpoint by doing a HTTP HEAD (or any other verb) request and evaluate the HTTP status
 
 E.g. call
 
-`curl --head "https://fakenumbers.github.io/mobile/4915903921132"`
+`curl --head "https://fakenumbercheck.tk/mobile/4915903921132"`
 
 | HTTP Status | Description | Example |
 | --- | --- | --- |
-| 200 | The number is on the black list, be careful before accepting a user with these credentials | [4915903921132](https://fakenumbers.github.io/mobile/4915903921132) |
-| 404 | Number not (yet) blacklisted | [123456789](https://fakenumbers.github.io/mobile/123456789) |
+| 200 | The number is on the black list, be careful before accepting a user with these credentials | [4915903921132](https://fakenumbercheck.tk/mobile/4915903921132) |
+| 404 | Number not (yet) blacklisted | [123456789](https://fakenumbercheck.tk/mobile/123456789) |
 
 Doing "bulk" checks against your database using HTTP request is of course **not recommended**. Rather clone the repo at [github.com/fakenumbers/](https://github.com/fakenumbers/fakenumbers.github.io/) and do an offline search (+ contribute your tool later on)
 
