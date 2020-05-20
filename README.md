@@ -1,7 +1,7 @@
 # [fakenumbers.github.io](https://fakenumbers.github.io/)
 A list of publicly known fake credentials (e.g. mobile phone numbers)
 
-You can simply use it as an API enpoint by doing a HTTP HEAD (or any other verb) request and evaluate the HTTP status
+You can simply use it as an API endpoint by doing a HTTP HEAD (or any other verb) request and evaluate the HTTP status
 
 E.g. call
 
@@ -37,7 +37,7 @@ Commit as "Add SMS numbers of freesmsverification.com"
 
 (`<list.file>` You can also prepare a text file with one number per line)
   
-If this is to complicate for you, feel free to contribute by sending an emial with the numbers and the source to [fake.number.checker@gmail.com](mailto:fake.number.checker@gmail.com) Don't worry - your mail address won't be published.
+If this is to complicate for you, feel free to contribute by sending an email with the numbers and the source to [fake.number.checker@gmail.com](mailto:fake.number.checker@gmail.com) Don't worry - your mail address won't be published.
 
 ## ways to contribute
 * Discover more services, that offer fake numbers, one-time emails, IBANs, etc. and [let us know](mailto:fake.number.checker@gmail.com)
