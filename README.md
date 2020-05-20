@@ -44,3 +44,7 @@ If this is to complicate for you, feel free to contribute by sending an emial wi
 * Add more numbers, as described above
 * Create a bot / scraper, that crawls for changes at one of the know [Online SMS services](https://github.com/fakenumbers/fakenumbers.github.io/tree/master/sms-services) and automatically creates a pull request here on any update
 * Create a crawler (e.g. by doing a simple [Google search for "IBAN GmbH"](https://www.google.com/search?q=iban%20gmbh)) that collects all these published IBAN, used for SEPA direct debit elsewhere in the web
+* Create a script that does an online search engine lookup of contributed numbers, to automatically check their public availability. E.g. [googling for an SMS fake number 447481344869](https://www.google.com/search?q=447481344869) reveals way more results than googling for a legit number.
+
+## disclaimer
+Though we try to carefully review submitted numbers and check their source, it's possible that this list contains valid, legit credentials. So please do not soley rely on this data source. Looking up a potential fake number in an online search gives also a good indication, if the number is "public" and likely "abused" or not.
